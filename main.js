@@ -14,7 +14,7 @@ function click1(event) {
 
 	let good__amount = parseInt(m)
 	let res = document.getElementById('result')
-	res.textContent = String('Общая стоимость товара:' + good__price * good__amount)
+	res.textContent = String('Общая стоимость товара: ' + good__price * good__amount + " руб.")
 	return false
 }
 
